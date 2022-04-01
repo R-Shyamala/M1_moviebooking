@@ -12,3 +12,4 @@
 | T_09	  | H_03	   | When a user enters an incorrect password while changing the price of a ticket (only admin) |	password                  |	Entered Password is wrong	                  | Entered Password is wrong	                           | PASS      |
 | T_10	  | H_05	   | To see the reserved ticket	                                                  | password                  | summary of ticket	                                        | summary of ticket                                    | PASS      |
 | T_11	  | H_05	   | When the incorrect password is used to access the reserved ticket	                    | Correct Password          |	Entered Password is wrong                        | Entered Password is wrong                            |	PASS      |
+
