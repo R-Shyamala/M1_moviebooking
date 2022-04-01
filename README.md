@@ -9,8 +9,8 @@
 
 * ![Grade](https://api.codiga.io/project/32347/status/svg)
 
-* Cpp Analysis on linux
-* ![Analysis](https://github.com/viswa0206/M1_moviebooking/actions/workflows/analysis.yml/badge.svg?branch=main)
+* Cpp Analysis 
+* ![Analysis](https://github.com/viswa0206/M1_moviebooking/actions/workflows/analysis.yml/badge.svg)
 
 * Build CI on Windows
 * ![Build CI - Windows](https://github.com/viswa0206/M1_moviebooking/actions/workflows/c-cpp.yml/badge.svg)
