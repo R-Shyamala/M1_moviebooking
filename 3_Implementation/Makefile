@@ -1,16 +1,5 @@
 PROJ_NAME = Movie_Ticket_Booking_System
-SRC = main.c\
-src/cancel.c\
-src/choice1.c\
-src/cmovie.c\
-src/details.c\
-src/movie.c\
-src/moviedetails.c\
-src/price.c\
-src/reservation.c\
-src/tic1.c\
-src/tic2.c\
-src/tic3.c
+
 
 
 TEST_SRC =src/changepriceticket.c\
