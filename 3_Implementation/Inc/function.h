@@ -1,13 +1,3 @@
-/**
- * @file function.h
- * @author Goutami D Honagannavar (you@domain.com)
- * @brief 
- * @version 0.1
- * @date 2021-09-05
- * 
- * @copyright Copyright (c) 2021
- * 
- */
 #ifndef __FUNCTION_H__
 #define __FUNCTION_H__
 #include <stdio.h>
@@ -31,17 +21,8 @@
 
 
        
+#endif 
 
-
-
-
-
-#endif /* #define _FUNCTION_H__ */
-
-
-/**
- * @brief login withrespective to customer or admin
- */
 
 
 int enterchoice(void);
@@ -58,10 +39,7 @@ int enterchoice(void)
 	scanf("%d",&choice);
 	return choice;
 }
-/**
- * @brief login for admin
- * 
- */
+
 void details(void);
 struct movie_details person[300];
 void details(void)
@@ -83,9 +61,6 @@ void details(void)
 		system("PAUSE");
 		system("CLS");
 }
-/**
- * @brief Displays the movie available to purchase a ticket
- */
 
 int ListofMovies(void);
 int ListofMovies(void)
@@ -113,11 +88,6 @@ int movieselect(void)
 	scanf("%d",&j);
 	return j;
 }
-
-/**
- * @brief admin can change prize of ticket after login with the appropriate login credentials .
- * 
- */
 int changepriceticket(int);
 int changepriceticket(int price)
 {
@@ -136,11 +106,6 @@ int changepriceticket(int price)
 		printf("The entered passcode is wrong! ");
 	return price;
 }
-
-/**
- * @brief Customer can purchase a ticket 
- */
-
 void show1(int choice,char name[10],int id1,int price);
 struct movie_details person[300];
 void show1(int choice,char name[10],int id1,int price)
@@ -161,9 +126,6 @@ void show1(int choice,char name[10],int id1,int price)
         printf("\t Thanks For Booking \n");
         return;
 }
-/**
- * @brief Customer can purchase a ticket 
- */
 void show2(int choice,char name[10],int id1,int price);
 struct movie_details person[300];
 void show2(int choice,char name[10],int id1,int price)
@@ -184,9 +146,7 @@ void show2(int choice,char name[10],int id1,int price)
        printf("\t Thanks For Booking \n");
         return;
 }
-/**
- * @brief Customer can purchase a ticket 
- */
+
 void show3(int choice,char name[10],int id1,int price);
 struct movie_details person[300];
 void show3(int choice,char name[10],int id1,int price)
@@ -208,9 +168,6 @@ void show3(int choice,char name[10],int id1,int price)
         return;
 }
 
-/**
- * @brief A customer can reserve the ticket
- */
 void reserveticket(int *,int,int );
 struct movie_details person[300];
 void reserveticket(int *arr,int price,int selection )
@@ -257,10 +214,6 @@ void reserveticket(int *arr,int price,int selection )
 		id1++;
 }
 
-
-/**
- * @brief A customer can cancel the ticket  
- */
 void cancelticket(int *); 
 struct movie_details person[300];
 void cancelticket(int *arr)
@@ -284,4 +237,4 @@ void cancelticket(int *arr)
 }
 
 
-#endif /* #define _FUNCTION_H__ */
+#endif 
