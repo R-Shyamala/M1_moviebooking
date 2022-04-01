@@ -11,6 +11,8 @@
 
 * Cpp Analysis on linux
 * ![Analysis](https://github.com/viswa0206/M1_moviebooking/actions/workflows/analysis.yml/badge.svg?branch=main)
+
 * Build CI on Windows
+* ![Build CI - Windows](https://github.com/viswa0206/M1_moviebooking/actions/workflows/c-cpp.yml/badge.svg)
 
 
