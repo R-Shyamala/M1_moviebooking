@@ -6,4 +6,8 @@
 
 * Codiga - Static Analysis
 * ![Quality](https://api.codiga.io/project/32347/score/svg)
+
 * ![Grade](https://api.codiga.io/project/32347/status/svg)
+
+* Cpp Analysis on linux
+* ![Analysis](https://github.com/viswa0206/M1_moviebooking/actions/workflows/analysis.yml/badge.svg?branch=main)
